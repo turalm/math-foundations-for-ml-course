@@ -1,0 +1,20 @@
+type: choose_any
+visible: true
+text: Select all the variants that are correct
+header: ""
+shuffle: true
+score: 1
+quiz:
+  variants:
+  - text: '1'
+    is_correct: true
+  - text: '2'
+    is_correct: false
+  - text: '3'
+    is_correct: false
+  - text: '4'
+    is_correct: true
+  - text: '5'
+    is_correct: false
+  - text: '6'
+    is_correct: false
