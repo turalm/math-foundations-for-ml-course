@@ -1,5 +1,10 @@
 order:
   - 1. Vectors as Arrows
-  - 2. Vectors as Sets of Coordinates
-  - 3. Vectors in Numpy
-hide: []
+  - 2. Sum of Vectors Quiz
+  - 3. Sum of Vectors Quiz 2
+  - 4. Scaling Quiz
+  - 6. Scalar Product Quiz
+  - 7. Geometric Meaning Quiz
+  - 8. Orthonormalisation Quiz
+  - 9. Numpy Practice
+  - 10. Vectors Practice

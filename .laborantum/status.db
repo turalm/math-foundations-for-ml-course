@@ -3,22 +3,29 @@
         {
             "path": "/texts/course/config.yml",
             "status": {
-                "total": 17,
-                "correct": 15
+                "total": 41,
+                "correct": 0
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/config.yml",
             "status": {
-                "total": 17,
-                "correct": 15
+                "total": 41,
+                "correct": 0
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/1. Vectors/config.yml",
             "status": {
-                "total": 17,
-                "correct": 15
+                "total": 41,
+                "correct": 0
+            }
+        },
+        {
+            "path": "/texts/course/1. Linear Algebra/2. Matrices/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0
             }
         }
     ],
@@ -117,6 +124,70 @@
         },
         {
             "path": "/texts/course/1. Linear Algebra/1. Vectors/3. Vectors in Numpy/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/1. Linear Algebra/1. Vectors/2. Sum of Vectors Quiz/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/1. Linear Algebra/1. Vectors/3. Sum of Vectors Quiz 2/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/1. Linear Algebra/1. Vectors/4. Scaling Quiz/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/1. Linear Algebra/1. Vectors/6. Scalar Product Quiz/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/1. Linear Algebra/1. Vectors/7. Geometric Meaning Quiz/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/1. Linear Algebra/1. Vectors/8. Orthonormalisation Quiz/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/1. Linear Algebra/1. Vectors/9. Numpy Practice/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/1. Linear Algebra/1. Vectors/10. Vectors Practice/config.yml",
             "status": {
                 "total": 1,
                 "correct": 0,

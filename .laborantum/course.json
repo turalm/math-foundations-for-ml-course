@@ -1,5 +1,5 @@
 {
     "courseName": "course_name",
-    "includeData": [],
-    "buildFolder": "./../build_folder"
+    "includeData": [".devcontainer", "LICENSE"],
+    "buildFolder": "./../math-foundations-student"
 }
