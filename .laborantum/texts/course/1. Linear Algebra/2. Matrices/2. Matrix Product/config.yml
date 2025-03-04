@@ -1,0 +1,16 @@
+type: order_cards
+score: 2
+header: Matrix Product
+text: >
+  Reorder the matrix product operations so that calculation of the final result takes as few operations as possible:
+
+  $$A_{5 \times 10} \  B_{10 \times 2}\ C_{2 \times 30}\ D_{30 \times 3}\ E_{3
+  \times 9}$$
+shuffle: true
+quiz:
+  variants:
+    - text: $CD$
+    - text: $AB$
+    - text: $DE$
+    - text: $BC$
+visible: false
