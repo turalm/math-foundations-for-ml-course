@@ -1,1 +1,8 @@
-order: []
+order:
+  - 1. Matrices
+  - 2. Matrix Product
+  - 3. Matrix Product
+  - 4. Functions as Transforms
+  - 5. Linear Transforms
+  - 6. Invertible Matrices
+  - 7. Matrices Practice
