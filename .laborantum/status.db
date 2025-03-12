@@ -3,22 +3,22 @@
         {
             "path": "/texts/course/config.yml",
             "status": {
-                "total": 50,
-                "correct": 0
+                "total": 98,
+                "correct": 7.333333333333333
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/config.yml",
             "status": {
                 "total": 50,
-                "correct": 0
+                "correct": 7.333333333333333
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/1. Vectors/config.yml",
             "status": {
                 "total": 33,
-                "correct": 0
+                "correct": 7.333333333333333
             }
         },
         {
@@ -31,14 +31,14 @@
         {
             "path": "/texts/course/2. Calculus/config.yml",
             "status": {
-                "total": 1,
+                "total": 48,
                 "correct": 0
             }
         },
         {
             "path": "/texts/course/2. Calculus/1. Derivatives/config.yml",
             "status": {
-                "total": 1,
+                "total": 48,
                 "correct": 0
             }
         },
@@ -55,8 +55,11 @@
             "path": "/texts/course/1. Linear Algebra/1. Vectors/1. Vectors as Arrows/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    3
+                ]
             }
         },
         {
@@ -155,48 +158,81 @@
             "path": "/texts/course/1. Linear Algebra/1. Vectors/2. Sum of Vectors Quiz/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    4,
+                    3,
+                    6
+                ]
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/1. Vectors/3. Sum of Vectors Quiz 2/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    5,
+                    0,
+                    7,
+                    3,
+                    2
+                ]
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/1. Vectors/4. Scaling Quiz/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    4,
+                    3,
+                    2,
+                    1,
+                    6
+                ]
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/1. Vectors/6. Scalar Product Quiz/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    6,
+                    2,
+                    4,
+                    0
+                ]
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/1. Vectors/7. Geometric Meaning Quiz/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    6,
+                    2,
+                    5,
+                    3
+                ]
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/1. Vectors/8. Orthonormalisation Quiz/config.yml",
             "status": {
-                "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "total": 2,
+                "correct": 1.3333333333333333,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    4,
+                    3,
+                    5
+                ]
             }
         },
         {
