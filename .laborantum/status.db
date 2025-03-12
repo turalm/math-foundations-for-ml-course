@@ -3,26 +3,47 @@
         {
             "path": "/texts/course/config.yml",
             "status": {
-                "total": 41,
+                "total": 50,
                 "correct": 0
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/config.yml",
             "status": {
-                "total": 41,
+                "total": 50,
                 "correct": 0
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/1. Vectors/config.yml",
             "status": {
-                "total": 41,
+                "total": 33,
                 "correct": 0
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/2. Matrices/config.yml",
+            "status": {
+                "total": 17,
+                "correct": 0
+            }
+        },
+        {
+            "path": "/texts/course/2. Calculus/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0
+            }
+        },
+        {
+            "path": "/texts/course/2. Calculus/1. Derivatives/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0
+            }
+        },
+        {
+            "path": "/texts/course/2. Calculus/2. Integrals/config.yml",
             "status": {
                 "total": 1,
                 "correct": 0
@@ -188,6 +209,142 @@
         },
         {
             "path": "/texts/course/1. Linear Algebra/1. Vectors/10. Vectors Practice/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/1. Linear Algebra/2. Matrices/1. Matrices/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/1. Linear Algebra/2. Matrices/2. Matrix Product/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/1. Linear Algebra/2. Matrices/3. Matrix Product/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/1. Linear Algebra/2. Matrices/4. Functions as Transforms/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/1. Linear Algebra/2. Matrices/5. Linear Transforms/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/1. Linear Algebra/2. Matrices/6. Invertible Matrices/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/1. Linear Algebra/2. Matrices/7. Matrices Practice/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Calculus/1. Derivatives/1. Derivatives Table/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Calculus/1. Derivatives/2. Deriving Derivatives lvl 1/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Calculus/1. Derivatives/3. Deriving Derivatives lvl 2/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Calculus/1. Derivatives/4. Deriving derivatives lvl 3/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Calculus/1. Derivatives/5. Deriving Derivatives lvl 4/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Calculus/1. Derivatives/9. Derivatives Practice/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Calculus/1. Derivatives/10. Gradient Descent Practice/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Calculus/1. Derivatives/11. Pytorch Tutorial/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Calculus/1. Derivatives/12. Backpropagation Package Project/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/1. Linear Algebra/2. Matrices/8. Matrix Analysis in Numpy/config.yml",
             "status": {
                 "total": 1,
                 "correct": 0,

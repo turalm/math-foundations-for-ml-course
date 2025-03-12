@@ -1,0 +1,44 @@
+type: order_cards
+visible: false
+header: Derivative of arcsin
+text: Order the cards to get proof of $\arcsin x$ derivative
+shuffle: true
+score: 1
+quiz:
+  variants:
+    - text: |
+        Consider combination of forward and inverse functions
+        $$\arcsin(\sin(x)) = x$$
+    - text: |
+        Take derivative of both sides:
+        $$\frac{d}{dx}\arcsin(\sin(x)) = \frac{dx}{dx}$$
+    - text: |
+        Right side is easy:
+        $$\frac{dx}{dx} = 1$$
+        And thus:
+        $$\frac{d}{dx}\arcsin(\sin(x)) = 1$$
+    - text: >
+        For the left side, use chain rule:
+
+        $$\frac{d}{dx}\arcsin(\sin(x)) = \frac{d
+        \arcsin(\sin(x))}{d(\sin(x))}\frac{d(\sin(x))}{dx}$$
+    - text: >
+        Replace $\sin x$ with $y$:
+
+        $$\frac{d}{dx}\arcsin(\sin(x)) = \frac{d
+        \arcsin(y)}{d(y)}\frac{d(y)}{dx}$$
+    - text: |
+        But this expression should be equal to 1!:
+        $$\frac{d \arcsin(y)}{d(y)}\frac{d(y)}{dx} = 1$$
+    - text: |
+        So, we have:
+        $$\frac{d \arcsin(y)}{d(y)} = \frac{1}{\frac{dy}{dx}}$$
+    - text: |
+        And we know that $\frac{dy}{dx} = \cos x$:
+        $$\frac{d \arcsin(y)}{d(y)} = \frac{1}{\cos x}$$
+    - text: |
+        Finally, replace $\cos x$ with $\sqrt{1 - \sin^2 x}$:
+        $$\frac{d \arcsin(y)}{d(y)} = \frac{1}{\sqrt{1 - y^2}}$$
+    - text: |
+        Hence, the derivative of $\arcsin x$ is:
+        $$\frac{d}{dx}\arcsin x = \frac{1}{\sqrt{1 - x^2}}$$
