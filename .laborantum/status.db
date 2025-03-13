@@ -4,7 +4,7 @@
             "path": "/texts/course/config.yml",
             "status": {
                 "total": 98,
-                "correct": 7.333333333333333
+                "correct": 9.333333333333332
             }
         },
         {
@@ -32,14 +32,14 @@
             "path": "/texts/course/2. Calculus/config.yml",
             "status": {
                 "total": 48,
-                "correct": 0
+                "correct": 2
             }
         },
         {
             "path": "/texts/course/2. Calculus/1. Derivatives/config.yml",
             "status": {
                 "total": 48,
-                "correct": 0
+                "correct": 2
             }
         },
         {
@@ -311,16 +311,39 @@
             "path": "/texts/course/2. Calculus/1. Derivatives/1. Derivatives Table/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14
+                ]
             }
         },
         {
             "path": "/texts/course/2. Calculus/1. Derivatives/2. Deriving Derivatives lvl 1/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
             }
         },
         {
