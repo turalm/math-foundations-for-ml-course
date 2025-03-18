@@ -1,0 +1,43 @@
+type: order_cards
+visible: false
+header: "Variance of Sum"
+text: "Order the cards to reconstruct variance of sum proof"
+shuffle: true
+score: 2
+quiz:
+  variants:
+    - text: |
+        Start with definition of $\mathbb V \xi$,
+        $$\mathbb V \xi = \mathbb E (\xi - \mathbb E \xi)^2$$
+    - text: |
+        Opening the brackets and thinking about $\mathbb E$ as about the average, we will get:
+        $$\mathbb V \xi = \mathbb E (\xi^2 - 2 \xi \mathbb E \xi + (\mathbb E \xi)^2)$$
+    - text: |
+        In fact, $\mathbb E \xi$ is a constant (as it is kind of average value), thus:
+        $$\mathbb V \xi = \mathbb E \xi^2 - 2 (\mathbb E \xi)^2 + (\mathbb E \xi)^2$$
+    - text: |
+        Simplifying the expression above, we will get:
+        $$\mathbb V \xi = \mathbb E \xi^2 - (\mathbb E \xi)^2$$
+    - text: |
+        Note that this expression is correct for any $\xi$ !!!
+    - text: |
+        Now consider $$\mathbb V (a \xi + b \eta)$$
+    - text: |
+        Take the formula that was proven above, and we will get:
+        $$\mathbb V (a \xi + b \eta) =\mathbb E (a \xi + b \eta)^2 - (\mathbb E (a \xi + b \eta))^2$$
+    - text: |
+        Opening the brackets, we will get:
+        $$\mathbb V (a \xi + b \eta) =\mathbb E (a^2 \xi^2) + \mathbb E (2 a \xi b \eta) + \mathbb E (b \eta)^2 - (\mathbb E (a \xi))^2 - 2 \mathbb E a \xi \mathbb E b \eta - (\mathbb E (b \eta))^2$$
+    - text: |
+        Taking out the coefficients, we get:
+        $$\mathbb V (a \xi + b \eta) = a^2 \mathbb E \xi^2 +2 a b \mathbb E  (\xi \eta) + b^2 \mathbb E \eta^2 - a^2 (\mathbb E \xi)^2 - 2 a b \mathbb E \xi \mathbb E \eta - b^2(\mathbb E \eta)^2$$
+    - text: |
+        Recalling that $\mathbb V \xi = \mathbb E \xi^2 - (\mathbb E \xi)^2$:
+        $$\mathbb V (a \xi + b \eta) = a^2 \mathbb V \xi + b^2 \mathbb V \eta + 2 a b \mathbb E  (\xi \eta) - 2 a b \mathbb E \xi \mathbb E \eta$$
+    - text: |
+        If we have independent $\xi$ and $\eta$, then
+        $$\mathbb E \xi \eta = \sum_{k} x_k y_k p(x_k, y_k) = \sum_{k} x_k y_k p(x_k)p(y_k) = \sum_{k} x_k p(x_k) \sum_{k} y_k p(y_k) = \mathbb E \xi \mathbb E \eta$$
+    - text: |
+        In that case the two last terms are cancelled, and we get:
+        $$\mathbb V (a \xi + b \eta) = a^2 \mathbb V \xi + b^2 \mathbb V \eta$$
+

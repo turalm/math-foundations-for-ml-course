@@ -1,0 +1,36 @@
+type: order_cards
+visible: false
+header: Integral as Antiderivative Proof
+text: |
+  Order the cards to prove that the integral 
+  with $x$ as an upper bound is an antiderivative
+shuffle: true
+score: 1
+quiz:
+  variants:
+    - text: |
+        Consider an integral as function of $x$:
+        $$F(x) = \int_{x_0}^{x} f(t) dt$$
+    - text: |
+        Apply definition of derivative to $F(x)$:
+        $$F'(x) = \frac{F(x + dx) - F(x)}{dx}$$
+    - text: >
+        Substitute $F(x)$ into the formula:
+
+        $$F'(x) = \frac{\int_{x_0}^{x + dx} f(t) dt - \int_{x_0}^{x} f(t)
+        dt}{dx}$$
+    - text: |
+        Simplify the expression:
+        $$F'(x) = \frac{\int_{x}^{x + dx} f(t) dt}{dx}$$
+    - text: |
+        Now, inside of the integral we have a volume 
+        of a thin rectangle 
+        with height $f(x)$ and width $dx$:
+        $$F'(x) = \frac{f(x)dx}{dx}$$
+    - text: |
+        Simplify the expression canceling out $dx$:
+        $$F'(x) = f(x)$$
+    - text: |
+        Therefore, the derivative of the integral 
+        with $x$ as an upper bound is the original function:
+        $$\frac{d}{dx} \int_{x_0}^{x} f(t) dt = f(x)$$

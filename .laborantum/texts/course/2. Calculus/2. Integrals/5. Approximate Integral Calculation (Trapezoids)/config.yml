@@ -1,0 +1,33 @@
+type: order_cards
+visible: false
+header: "Approximate Integral Calculation (Rectangles)"
+text: |
+  Order the cards to get the algorithm of approximate integral calculation 
+  using rectangles.
+shuffle: true
+score: 1
+quiz:
+  variants:
+    - text: |
+        Suppose we have some continuous function $f(x)$ 
+        that we have to integrate on the interval $[a, b]$:
+        $$\int_a^b f(x) dx$$
+    - text: |
+        Divide the interval $[a, b]$ into $n$ equal parts 
+        (it is not necessary, but we will require it for simplicity):
+        $$\Delta x = \frac{b - a}{n}$$
+    - text: |
+        Calculate the function values in the beginning and the end of each interval:
+        $$f(x_k), f(x_{k + 1})$$
+    - text: |
+        Build a trapezoid on each interval and calculate its area:
+        $$\frac{\Delta x}{2} \cdot (f(x_k) + f(x_{k + 1}))$$
+    - text: |
+        Sum up the areas of the trapezoids:
+        $$\sum_{k=1}^{n} \frac{\Delta x}{2} \cdot (f(x_k) + f(x_{k + 1}))$$
+    - text: |
+        This sum is an approximate value of the integral:
+        $$\int_a^b f(x) dx \approx \sum_{k=1}^{n} \frac{\Delta x}{2} \cdot (f(x_k) + f(x_{k + 1}))$$
+    - text: |
+        The more rectangles we use, the more accurate the result will be:
+        $$\lim_{n \to \infty} \sum_{k=1}^{n} \frac{\Delta x}{2} \cdot (f(x_k) + f(x_{k + 1})) = \int_a^b f(x) dx$$

@@ -1,0 +1,39 @@
+type: order_cards
+visible: false
+header: "Approximate Integral Calculation (Rectangles)"
+text: |
+  Order the cards to get the algorithm of approximate integral calculation 
+  using rectangles.
+shuffle: true
+score: 1
+quiz:
+  variants:
+    - text: |
+        Suppose we have some continuous function $f(x)$ 
+        that we have to integrate on the interval $[a, b]$:
+        $$\int_a^b f(x) dx$$
+    - text: |
+        Divide the interval $[a, b]$ into $n$ equal parts 
+        (it is not necessary, but we will require it for simplicity):
+        $$\Delta x = \frac{b - a}{n}$$
+    - text: |
+        Choose the points $x_i$ in each interval:
+        $$x_k = a + k \cdot \Delta x$$
+    - text: |
+        Calculate the function values in these points:
+        $$f(x_k)$$
+    - text: |
+        Calculate the area of the rectangles:
+        $$\Delta x \cdot f(x_k)$$
+    - text: |
+        Sum up the areas of the rectangles:
+        $$\sum_{k=1}^{n} \Delta x \cdot f(x_k)$$
+    - text: |
+        This sum is an approximate value of the integral:
+        $$\int_a^b f(x) dx \approx \sum_{k=1}^{n} \Delta x \cdot f(x_k)$$
+    - text: |
+        The more rectangles we use, the more accurate the result will be:
+        $$\lim_{n \to \infty} \sum_{k=1}^{n} \Delta x \cdot f(x_k) = \int_a^b f(x) dx$$
+    - text: |
+        Finally, a small improvement: for better accuracy, we can use middle points of the intervals:
+        $$x_k = a + \frac{2k - 1}{2} \cdot \Delta x$$

@@ -1,0 +1,28 @@
+type: order_cards
+visible: false
+header: "Integration by Parts Proof"
+text: |
+    Order the cards to get the proof of the 
+    integration by parts formula."
+shuffle: true
+score: 1
+quiz:
+  variants:
+    - text: |
+        Consider the differential of the product of two functions:
+        $$d (f(x) g(x))$$
+    - text: |
+        Expand the differential of the product of two functions:
+        $$d (f(x) g(x)) = f(x) dg(x) + g(x) df(x)$$
+    - text: |
+        Integrate both sides of the equation:
+        $$\int d (f(x) g(x)) = \int f(x) dg(x) + \int g(x) df(x)$$
+    - text: |
+        Recalling that integration is opposed to differentiation:
+        $$\int d(f(x) g(x)) = f(x) g(x) + C$$
+    - text: |
+        Insert this expression to the left side of the equation:
+        $$f(x) g(x) = \int f(x) dg(x) + \int g(x) df(x)$$
+    - text: |
+        Rearrange the terms to get the integration by parts formula:
+        $$\int f(x) dg(x) = f(x) g(x) - \int g(x) df(x)$$

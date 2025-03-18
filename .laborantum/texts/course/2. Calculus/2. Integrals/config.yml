@@ -1,1 +1,7 @@
-order: []
+order:
+  - 1. Integrals Table
+  - 2. Integral is Antiderivative Proof
+  - 3. Integration by Parts Proof
+  - 4. Approximate Integral Calculation (Rectangles)
+  - 5. Approximate Integral Calculation (Trapezoids)
+  - 6. Integrals Practice
