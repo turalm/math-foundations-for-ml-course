@@ -3,22 +3,22 @@
         {
             "path": "/texts/course/config.yml",
             "status": {
-                "total": 136,
-                "correct": 25
+                "total": 119,
+                "correct": 17.857142857142858
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/config.yml",
             "status": {
-                "total": 50,
-                "correct": 15
+                "total": 33,
+                "correct": 7.857142857142857
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/1. Vectors/config.yml",
             "status": {
                 "total": 33,
-                "correct": 8
+                "correct": 7.857142857142857
             }
         },
         {
@@ -218,12 +218,13 @@
             "path": "/texts/course/1. Linear Algebra/1. Vectors/7. Geometric Meaning Quiz/config.yml",
             "status": {
                 "total": 1,
-                "correct": 1,
+                "correct": 0.8571428571428571,
                 "selectedVariantIds": [
                     5,
                     3,
                     2,
-                    6
+                    6,
+                    4
                 ]
             }
         },
