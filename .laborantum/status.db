@@ -3,49 +3,56 @@
         {
             "path": "/texts/course/config.yml",
             "status": {
-                "total": 98,
-                "correct": 0
+                "total": 136,
+                "correct": 25
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/config.yml",
             "status": {
                 "total": 50,
-                "correct": 0
+                "correct": 15
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/1. Vectors/config.yml",
             "status": {
                 "total": 33,
-                "correct": 0
+                "correct": 8
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/2. Matrices/config.yml",
             "status": {
                 "total": 17,
-                "correct": 0
+                "correct": 7
             }
         },
         {
             "path": "/texts/course/2. Calculus/config.yml",
             "status": {
-                "total": 48,
-                "correct": 0
+                "total": 73,
+                "correct": 10
             }
         },
         {
             "path": "/texts/course/2. Calculus/1. Derivatives/config.yml",
             "status": {
                 "total": 48,
-                "correct": 0
+                "correct": 5
             }
         },
         {
             "path": "/texts/course/2. Calculus/2. Integrals/config.yml",
             "status": {
-                "total": 1,
+                "total": 25,
+                "correct": 5
+            }
+        },
+        {
+            "path": "/texts/course/3. Probability and Statistics/config.yml",
+            "status": {
+                "total": 13,
                 "correct": 0
             }
         }
@@ -55,8 +62,11 @@
             "path": "/texts/course/1. Linear Algebra/1. Vectors/1. Vectors as Arrows/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    3
+                ]
             }
         },
         {
@@ -155,48 +165,81 @@
             "path": "/texts/course/1. Linear Algebra/1. Vectors/2. Sum of Vectors Quiz/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    4,
+                    6,
+                    3
+                ]
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/1. Vectors/3. Sum of Vectors Quiz 2/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    2,
+                    3,
+                    5,
+                    7
+                ]
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/1. Vectors/4. Scaling Quiz/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    4,
+                    2,
+                    6,
+                    3,
+                    1
+                ]
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/1. Vectors/6. Scalar Product Quiz/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    4,
+                    6,
+                    2,
+                    0
+                ]
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/1. Vectors/7. Geometric Meaning Quiz/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    5,
+                    3,
+                    2,
+                    6
+                ]
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/1. Vectors/8. Orthonormalisation Quiz/config.yml",
             "status": {
-                "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "total": 2,
+                "correct": 2,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
             }
         },
         {
@@ -219,48 +262,88 @@
             "path": "/texts/course/1. Linear Algebra/2. Matrices/1. Matrices/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    5,
+                    1,
+                    7,
+                    3,
+                    8
+                ]
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/2. Matrices/2. Matrix Product/config.yml",
             "status": {
-                "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "total": 2,
+                "correct": 2,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3
+                ]
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/2. Matrices/3. Matrix Product/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    2,
+                    10,
+                    5,
+                    1,
+                    11,
+                    4,
+                    7,
+                    6
+                ]
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/2. Matrices/4. Functions as Transforms/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    5,
+                    1,
+                    6,
+                    8
+                ]
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/2. Matrices/5. Linear Transforms/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    8,
+                    10,
+                    6,
+                    11,
+                    4
+                ]
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/2. Matrices/6. Invertible Matrices/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    8,
+                    0,
+                    13,
+                    4,
+                    9,
+                    10,
+                    6,
+                    12
+                ]
             }
         },
         {
@@ -275,40 +358,95 @@
             "path": "/texts/course/2. Calculus/1. Derivatives/1. Derivatives Table/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14
+                ]
             }
         },
         {
             "path": "/texts/course/2. Calculus/1. Derivatives/2. Deriving Derivatives lvl 1/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
             }
         },
         {
             "path": "/texts/course/2. Calculus/1. Derivatives/3. Deriving Derivatives lvl 2/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                ]
             }
         },
         {
             "path": "/texts/course/2. Calculus/1. Derivatives/4. Deriving derivatives lvl 3/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ]
             }
         },
         {
             "path": "/texts/course/2. Calculus/1. Derivatives/5. Deriving Derivatives lvl 4/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                ]
             }
         },
         {
@@ -345,6 +483,130 @@
         },
         {
             "path": "/texts/course/1. Linear Algebra/2. Matrices/8. Matrix Analysis in Numpy/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Calculus/2. Integrals/1. Integrals Table/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/2. Calculus/2. Integrals/2. Integral is Antiderivative Proof/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/2. Calculus/2. Integrals/3. Integration by Parts Proof/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/2. Calculus/2. Integrals/4. Approximate Integral Calculation (Rectangles)/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/2. Calculus/2. Integrals/5. Approximate Integral Calculation (Trapezoids)/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/2. Calculus/2. Integrals/6. Integrals Practice/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/3. Probability and Statistics/1. Linearity of Expectance/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/3. Probability and Statistics/2. Variance of Sum/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/3. Probability and Statistics/1. Discrete Probability Practice/config.yml",
             "status": {
                 "total": 1,
                 "correct": 0,
